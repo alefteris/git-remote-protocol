@@ -13,9 +13,9 @@ npm install git-remote-protocol
 ```js
 const gitRemote = require('git-remote-protocol');
 
-gitRemote.toSSH('https://github.com/torvalds/linux.git')
+gitRemote.toSSH('https://github.com/torvalds/linux.git');
 // git@github.com:torvalds/linux.git
-gitRemote.toHTTPS('git@bitbucket.org:mirror/linux.git')
+gitRemote.toHTTPS('git@bitbucket.org:mirror/linux.git');
 // https://bitbucket.org/mirror/linux.git
 ```
 
